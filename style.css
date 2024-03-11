@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items:baseline;
+    background-color:gainsboro;
+}
+
+header{
+    align-items: center;
+    padding: 10px;
+    flex-direction:row;
+    background-color: lightblue;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    padding: 10px;
+}
+
+.header-esq{
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.header-dir{
+    justify-content:space-evenly;
+    font-size: 25px;
+    text-align:center;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+
